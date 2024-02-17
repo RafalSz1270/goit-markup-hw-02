@@ -1,0 +1,57 @@
+.logoweb {
+  font: 700 18px / 1.16667 "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logostudio {
+  font: 700 18px / 1.16667 "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.text-adres {
+  font: 400 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+a {
+  text-decoration: none;
+}
+.nav-text {
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}
+h1 {
+  font: 700 56px / 1.07143 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+button {
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+.title-box {
+  background-color: #2e2f42;
+}
+h2 {
+  font: 500 20px / 1.2 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+h3 {
+  font: 400 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
