@@ -44,28 +44,54 @@ body {
 ul {
   list-style: none;
 }
-h1 {
-  font: 700 56px / 1.07143 "Roboto", sans-serif;
+.first-head {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1.7;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 button {
   font: 500 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.botton:hover,
+.botton:focus {
+  color: #404bbf;
 }
 .title-box {
   background-color: #2e2f42;
 }
-h2 {
-  font: 500 20px / 1.2 "Roboto", sans-serif;
+.third-head {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
 }
-h3 {
-  font: 400 16px / 1.5 "Roboto", sans-serif;
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.second-head {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
