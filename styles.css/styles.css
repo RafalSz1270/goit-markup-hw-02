@@ -13,10 +13,10 @@
 .text-adres {
   font: 400 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.02em;
-  color: #434455;
   font-style: normal;
 }
 .link-adres {
+  color: #434455;
   text-decoration: none;
 }
 .link-adres:hover,
@@ -32,7 +32,10 @@
 }
 
 .nav-text {
-  font: 500 16px / 1.5 "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -47,8 +50,8 @@ ul {
 .first-head {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 54px;
-  line-height: 1.7;
+  font-size: 56px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -62,8 +65,10 @@ button {
   cursor: pointer;
 }
 .botton:hover,
-.botton:focus {
+.botton:focus,
+.botton:active {
   color: #404bbf;
+  background-color: #404bbf;
 }
 .title-box {
   background-color: #2e2f42;
@@ -94,4 +99,21 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+.section-our-team {
+  background-color: #f4f4fd;
+}
+.list-item-ourteam {
+  background-color: #ffffff;
+}
+.text-footer {
+  background-color: #2e2f42;
+}
+.footer-studio {
+  color: #f4f4fd;
+}
+.footer-paragraph {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
